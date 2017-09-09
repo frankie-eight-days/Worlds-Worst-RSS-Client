@@ -66,7 +66,7 @@ def main():
         if x < (-13821):
             # If it's 700 chars left then the active string is updated
             activeString += 1
-            if activeString > len(stringsToRender):
+            if activeString > len(stringsToRender)-1:
                 # If it's the last string in the array, it resets
                 activeString = 0
             #Then x is reset and everything proceeds normally
